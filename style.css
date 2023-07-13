@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    background-color: rgb(247, 247, 247);
+    font-family: 'Kanit', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header {
+    width: 500px;
+    position: relative;
+    right: 250px;
+    top: 160px;
+}
+
+
+
+.logo1 {
+    width: 300px;
+    margin-left: -50px;
+   
+}
+
+img {
+    width: 300px;
+    
+}
+
+.logo2 {
+    font-size: 30px;
+    width: 500px;
+    line-height: 34px;
+    margin-left: -20px;
+}
+
+
+
+
+/* LOGIN */
+.login {
+    border-radius: 10px;
+    box-shadow: 2px 3px 12px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    width: 420px;
+    height: 360px;
+    display: flex;
+    position: relative;
+    left: 290px;
+    top: -88px;
+    margin-top: 50px;
+}
+
+
+.buttonclick {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(114, 95, 95);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.buttonclick>button {
+    background-color: #42B72A;
+    border-color: #42B72A;
+    border-radius: 8px;
+    border: solid;
+    cursor: pointer;
+    color: white;
+    font-size: 17px;
+    padding: 16px;
+    width: fit-content;
+    line-height: 20px;
+    margin-top: 18px;
+    margin-left: 105px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+   
+    
+}
+
+button:hover {
+    background-color: rgb(38, 142, 39);
+}
+
+
+.forgot {
+    color: #274AE7;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+
+.forgot>a {
+    color: rgb(39, 74, 231);
+}
+
+
+hr {
+    width: 370px;
+    margin-left: 24px;
+}
+
+
+input[type=text] {
+    margin: 18px;
+    width: 380px;
+    height: 20px;
+    padding: 26px;
+    border-radius: 5px;
+    border: 1px solid rgb(200, 198, 198);
+
+}
+
+input[type=text]:focus {
+    border: 1px solid blue;
+    outline: 3px solid rgb(220, 250, 255);
+}
+
+
+
+input[type=password] {
+    margin-left: 18px;
+    width: 380px;
+    height: 20px;
+    padding: 26px;
+    border-radius: 5px;
+    border: 1px solid rgb(200, 198, 198);
+
+}
+
+input[type=password]:focus {
+    box-shadow: 20px;
+    border: 1px solid blue;
+    outline: 3px solid rgb(220, 250, 255);
+}
+
+
+input[type=submit] {
+    color: white;
+    font-size: 20px;
+    background-color: #1877f2;
+    margin: 18px;
+    width: 380px;
+    height: 20px;
+    padding: 26px;
+    border-radius: 5px;
+    line-height: 2px;
+    border: rgb(39, 74, 231);
+    cursor: pointer;
+}
+
+.forgot {
+    text-align: center;
+    margin-top: -10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+b {
+    cursor: pointer;
+}
+
+.button {
+    background-color: #11b545;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    font-size: 17px;
+    padding: 16px;
+    width: 180px;
+    height: 42px;
+    line-height: 6px;
+    margin-top: 16px;
+    margin-left: 120px;
+    letter-spacing: 0.5px;
+}
+
+.bot {
+
+    width: 420px;
+    margin-left: 780px;
+    text-align: center;
+    margin-top: -70px;
+}
+
+
+/* BOTTOM */
+
+.foot {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 140px;
+    padding: 30px 300px 0px 350px;
+}
+
+
+
+
+.foot1 {
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    gap: 18px;
+    line-height: 1px;
+}
+
+
+.line {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 10px;
+    margin-bottom: 18px;
+    border: 1px solid rgb(200, 198, 198);
+}
+
+.foot2 {
+    width: fit-content;
+    background-color: rgb(255, 255, 255);
+    padding: 0px 30px 30px 0px;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    gap: 18px;
+    line-height: 1px;
+}
+
+
+
+.last {
+    margin-bottom: 28px;
+    background-color: rgb(255, 255, 255);
+}
